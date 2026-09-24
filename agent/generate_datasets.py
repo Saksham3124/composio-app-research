@@ -1,11 +1,12 @@
 """
-Database generation script for the Composio 100 Apps Research Pipeline.
-Encodes the verified findings across all 100 applications, simulates Pass 1
-baseline errors, tracks Pass 2 verification loop fixes, and compiles cluster patterns.
+Reference Golden Dataset and Seed Exporter for the Composio 100 Apps Research Pipeline.
+Contains the curated ground truth findings across all 100 applications against which
+automated agent predictions (Pass 1 and Pass 2) are benchmarked.
+Uses pathlib for cross-platform portability.
 """
 
 import json
-import os
+from pathlib import Path
 
 ALL_APPS = [
     # 1. CRM and Sales
@@ -2032,33 +2033,25 @@ def compute_patterns(apps):
     }
 
 def main():
-    base_dir = r"C:\Users\Saksham\.gemini\antigravity\scratch\composio_app_research"
-    data_dir = os.path.join(base_dir, "data")
-    os.makedirs(data_dir, exist_ok=True)
+    base_dir = Path(__file__).resolve().parent.parent
+    data_dir = base_dir / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1. Generate Golden Dataset
-    final_path = os.path.join(data_dir, "apps_final.json")
+    # 1. Generate Golden Reference Dataset
+    golden_path = data_dir / "golden_reference.json"
+    with open(golden_path, "w", encoding="utf-8") as f:
+        json.dump({"metadata": {"title": "Curated Golden Reference (100 Apps)"}, "apps": ALL_APPS}, f, indent=2)
+    print(f"Generated {golden_path} with {len(ALL_APPS)} reference applications.")
+
+    # Also sync apps_final.json
+    final_path = data_dir / "apps_final.json"
     with open(final_path, "w", encoding="utf-8") as f:
         json.dump({"apps": ALL_APPS}, f, indent=2)
-    print(f"Generated {final_path} with {len(ALL_APPS)} verified applications.")
+    print(f"Synced {final_path}.")
 
-    # 2. Generate Pass 1 Simulation
-    p1 = simulate_pass1()
-    p1_path = os.path.join(data_dir, "apps_pass1.json")
-    with open(p1_path, "w", encoding="utf-8") as f:
-        json.dump({"apps": p1}, f, indent=2)
-    print(f"Generated {p1_path} (Pass 1 baseline with errors).")
-
-    # 3. Generate Pass 2 Simulation
-    p2 = simulate_pass2(p1)
-    p2_path = os.path.join(data_dir, "apps_pass2.json")
-    with open(p2_path, "w", encoding="utf-8") as f:
-        json.dump({"apps": p2}, f, indent=2)
-    print(f"Generated {p2_path} (Pass 2 automated verification).")
-
-    # 4. Generate Patterns & Cluster Metrics
+    # Patterns
     patterns = compute_patterns(ALL_APPS)
-    patterns_path = os.path.join(data_dir, "patterns.json")
+    patterns_path = data_dir / "patterns.json"
     with open(patterns_path, "w", encoding="utf-8") as f:
         json.dump(patterns, f, indent=2)
     print(f"Generated {patterns_path} with cluster analytics.")

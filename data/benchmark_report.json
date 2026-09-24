@@ -1,101 +1,1347 @@
 {
   "metrics_shift": {
     "pass1_raw": {
-      "verdict_acc": 83.0,
-      "self_serve_acc": 91.0,
-      "surface_acc": 97.0,
-      "mcp_acc": 94.0,
-      "overall_accuracy": 91.2
+      "verdict_acc": 48.0,
+      "self_serve_acc": 59.0,
+      "surface_acc": 69.0,
+      "mcp_acc": 15.0,
+      "overall_accuracy": 47.8,
+      "total_evaluated": 100,
+      "disagreements_count": 52,
+      "disagreements": [
+        {
+          "id": 1,
+          "name": "Salesforce",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 2,
+          "name": "HubSpot",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 3,
+          "name": "Pipedrive",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 4,
+          "name": "Attio",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 5,
+          "name": "Twenty",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 8,
+          "name": "Close",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 10,
+          "name": "DealCloud",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Blocked (P3 - Partner/Sales Gate)"
+        },
+        {
+          "id": 11,
+          "name": "Zendesk",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 12,
+          "name": "Intercom",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 13,
+          "name": "Freshdesk",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 14,
+          "name": "Front",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 15,
+          "name": "Pylon",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 16,
+          "name": "LiveAgent",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 17,
+          "name": "Plain",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 20,
+          "name": "Gladly",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Blocked (P3 - Partner/Sales Gate)"
+        },
+        {
+          "id": 21,
+          "name": "Slack",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 22,
+          "name": "Twilio",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 23,
+          "name": "Zoho Cliq",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 26,
+          "name": "Discord",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 27,
+          "name": "Telegram",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 28,
+          "name": "WhatsApp Business",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Verification Gated for Production)"
+        },
+        {
+          "id": 29,
+          "name": "Aircall",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 30,
+          "name": "Vonage",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 31,
+          "name": "Google Ads",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Developer Token Gated)"
+        },
+        {
+          "id": 32,
+          "name": "Meta Ads",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - App Review Gated)"
+        },
+        {
+          "id": 33,
+          "name": "LinkedIn Ads",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Application Gated)"
+        },
+        {
+          "id": 34,
+          "name": "GoHighLevel",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 38,
+          "name": "Pinterest",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 39,
+          "name": "Threads (Meta)",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 44,
+          "name": "Salesforce Commerce Cloud",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Blocked (P3 - Partner/Sales Gate)"
+        },
+        {
+          "id": 45,
+          "name": "Magento (Adobe Commerce)",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard Setup)"
+        },
+        {
+          "id": 46,
+          "name": "Squarespace",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Paid Tier Gated)"
+        },
+        {
+          "id": 49,
+          "name": "Amazon Selling Partner",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Developer Registration Gated)"
+        },
+        {
+          "id": 50,
+          "name": "fanbasis",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Blocked (P3 - No Public API)"
+        },
+        {
+          "id": 52,
+          "name": "SE Ranking",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Paid Plan Gated)"
+        },
+        {
+          "id": 53,
+          "name": "Ahrefs",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Enterprise/Paid Tier Gated)"
+        },
+        {
+          "id": 58,
+          "name": "Sherlock",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P0 via Local MCP/CLI wrapper)"
+        },
+        {
+          "id": 59,
+          "name": "Waterfall.io",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 82,
+          "name": "Plaid",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 Sandbox / P2 Production)"
+        },
+        {
+          "id": 84,
+          "name": "Paygent Connect",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Blocked (P3 - Partner/Sales Gate)"
+        },
+        {
+          "id": 85,
+          "name": "iPayX",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Blocked (P3 - Partner/Sales Gate)"
+        },
+        {
+          "id": 86,
+          "name": "QuickBooks",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 87,
+          "name": "Xero",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 88,
+          "name": "Brex",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 89,
+          "name": "Ramp",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 90,
+          "name": "PitchBook",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Blocked (P3 - Partner/Sales Gate)"
+        },
+        {
+          "id": 91,
+          "name": "NotebookLM",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Workaround / Conditional (P2 - Needs Vertex AI Grounding)"
+        },
+        {
+          "id": 92,
+          "name": "Otter AI",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Workaround (P3 - Unofficial / Session Token)"
+        },
+        {
+          "id": 94,
+          "name": "Consensus",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Developer Waitlist)"
+        },
+        {
+          "id": 95,
+          "name": "Reducto",
+          "field": "buildability_verdict",
+          "predicted": "Blocked (P3 - Partner/Sales Gate)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 96,
+          "name": "Devin (Cognition)",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P0 with Paid Account / Official MCP)"
+        },
+        {
+          "id": 97,
+          "name": "higgsfield",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard Setup / CLI)"
+        }
+      ]
     },
     "pass2_loop_verified": {
-      "verdict_acc": 100.0,
-      "self_serve_acc": 100.0,
-      "surface_acc": 100.0,
-      "mcp_acc": 100.0,
-      "overall_accuracy": 100.0
+      "verdict_acc": 61.0,
+      "self_serve_acc": 65.0,
+      "surface_acc": 68.0,
+      "mcp_acc": 87.0,
+      "overall_accuracy": 70.2,
+      "total_evaluated": 100,
+      "disagreements_count": 39,
+      "disagreements": [
+        {
+          "id": 1,
+          "name": "Salesforce",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 2,
+          "name": "HubSpot",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 3,
+          "name": "Pipedrive",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 4,
+          "name": "Attio",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 5,
+          "name": "Twenty",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 8,
+          "name": "Close",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 11,
+          "name": "Zendesk",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 12,
+          "name": "Intercom",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 13,
+          "name": "Freshdesk",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 14,
+          "name": "Front",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 15,
+          "name": "Pylon",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 16,
+          "name": "LiveAgent",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 17,
+          "name": "Plain",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 21,
+          "name": "Slack",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 22,
+          "name": "Twilio",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 23,
+          "name": "Zoho Cliq",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 26,
+          "name": "Discord",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 27,
+          "name": "Telegram",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 29,
+          "name": "Aircall",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 30,
+          "name": "Vonage",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 - Quick Win)"
+        },
+        {
+          "id": 34,
+          "name": "GoHighLevel",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 38,
+          "name": "Pinterest",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 39,
+          "name": "Threads (Meta)",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 45,
+          "name": "Magento (Adobe Commerce)",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard Setup)"
+        },
+        {
+          "id": 46,
+          "name": "Squarespace",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Paid Tier Gated)"
+        },
+        {
+          "id": 52,
+          "name": "SE Ranking",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Paid Plan Gated)"
+        },
+        {
+          "id": 53,
+          "name": "Ahrefs",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Enterprise/Paid Tier Gated)"
+        },
+        {
+          "id": 58,
+          "name": "Sherlock",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P0 via Local MCP/CLI wrapper)"
+        },
+        {
+          "id": 59,
+          "name": "Waterfall.io",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 82,
+          "name": "Plaid",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Ready (P0 Sandbox / P2 Production)"
+        },
+        {
+          "id": 86,
+          "name": "QuickBooks",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 87,
+          "name": "Xero",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard OAuth)"
+        },
+        {
+          "id": 88,
+          "name": "Brex",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 89,
+          "name": "Ramp",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Conditional (P2 - Account Gated)"
+        },
+        {
+          "id": 91,
+          "name": "NotebookLM",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Workaround / Conditional (P2 - Needs Vertex AI Grounding)"
+        },
+        {
+          "id": 94,
+          "name": "Consensus",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P1 - Standard OAuth)",
+          "reference": "Conditional (P2 - Developer Waitlist)"
+        },
+        {
+          "id": 95,
+          "name": "Reducto",
+          "field": "buildability_verdict",
+          "predicted": "Blocked (P3 - Partner/Sales Gate)",
+          "reference": "Ready (P0 - Immediate Quick Win)"
+        },
+        {
+          "id": 96,
+          "name": "Devin (Cognition)",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P0 with Paid Account / Official MCP)"
+        },
+        {
+          "id": 97,
+          "name": "higgsfield",
+          "field": "buildability_verdict",
+          "predicted": "Ready (P0 - Immediate Quick Win)",
+          "reference": "Ready (P1 - Standard Setup / CLI)"
+        }
+      ]
     },
-    "pass3_human_audited": {
-      "verdict_acc": 99.0,
-      "self_serve_acc": 99.0,
-      "surface_acc": 99.0,
-      "mcp_acc": 99.0,
-      "overall_accuracy": 99.0
+    "human_audit_sample": {
+      "sample_size": 25,
+      "pass1_sample_accuracy": 56.0,
+      "pass2_sample_accuracy": 100.0,
+      "approved_count": 25,
+      "human_review_cases": 0,
+      "sample_records": [
+        {
+          "app_id": 1,
+          "name": "Salesforce",
+          "category": "CRM and Sales",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified that Salesforce Developer Edition orgs are 100% free perpetually with immediate REST API and Connected App access.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 4,
+          "name": "Attio",
+          "category": "CRM and Sales",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developers.attio.com/reference/overview",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified that Attio provides instant scoped API keys in Workspace Settings with a generous 3-seat free tier.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 10,
+          "name": "DealCloud",
+          "category": "CRM and Sales",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://api.docs.dealcloud.com/",
+          "ground_truth_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "ground_truth_self_serve": "Partner/Sales Gated",
+          "pass1_agent_verdict": "Ready (P1 - Standard OAuth)",
+          "pass2_agent_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Audited DealCloud onboarding. Confirmed that public signup forms route to an Intapp sales qualification form. Zero self-serve access without enterprise contract.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 11,
+          "name": "Zendesk",
+          "category": "Support and Helpdesk",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developer.zendesk.com/api-reference/",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Trial",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified Zendesk trial provides full REST API tokens and subdomain routing. Developer sandbox available upon application.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 15,
+          "name": "Pylon",
+          "category": "Support and Helpdesk",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://docs.usepylon.com/reference/getting-started",
+          "ground_truth_verdict": "Conditional (P2 - Account Gated)",
+          "ground_truth_self_serve": "Paid Plan Gated",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Conditional (P2 - Tier/Review Gated)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Audited Pylon. Confirmed REST API is documented, but requires an active Pylon workspace connected to corporate Slack/Teams. No public free sandbox.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 20,
+          "name": "Gladly",
+          "category": "Support and Helpdesk",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developer.gladly.com/rest/",
+          "ground_truth_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "ground_truth_self_serve": "Partner/Sales Gated",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Confirmed Gladly has zero public trial or self-serve credential creation. Requires enterprise customer contract and admin provisioning.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 21,
+          "name": "Slack",
+          "category": "Communications and Messaging",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://api.slack.com/methods",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified Slack app creation is 100% free and instantaneous at api.slack.com/apps.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 28,
+          "name": "WhatsApp Business",
+          "category": "Communications and Messaging",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+          "ground_truth_verdict": "Conditional (P2 - Verification Gated for Production)",
+          "ground_truth_self_serve": "Self-serve Trial / Gated Production",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Conditional (P2 - Tier/Review Gated)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Human audit confirmed critical nuance: Cloud API has free test numbers for prototyping, but production messaging requires Meta Business Verification and template pre-approval.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 31,
+          "name": "Google Ads",
+          "category": "Marketing, Ads, Email and Social",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developers.google.com/google-ads/api/docs/first-call/overview",
+          "ground_truth_verdict": "Conditional (P2 - Developer Token Gated)",
+          "ground_truth_self_serve": "Gated Developer Token",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Conditional (P2 - Tier/Review Gated)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Audited Google Ads requirements. Confirmed that while OAuth is self-serve in GCP, the mandatory 'developer-token' header requires a formal developer token application.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 34,
+          "name": "GoHighLevel",
+          "category": "Marketing, Ads, Email and Social",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://highlevel.stoplight.io/docs/integrations/",
+          "ground_truth_verdict": "Conditional (P2 - Account Gated)",
+          "ground_truth_self_serve": "Paid Plan Gated",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Conditional (P2 - Tier/Review Gated)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Confirmed HighLevel API v2 requires an active agency subscription ($97+/mo). Marketplace developer portal is gated behind agency login.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 40,
+          "name": "SendGrid",
+          "category": "Marketing, Ads, Email and Social",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://docs.sendgrid.com/api-reference",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified 100 emails/day free forever with instant API key creation in Settings -> API Keys.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 41,
+          "name": "Shopify",
+          "category": "Ecommerce",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://shopify.dev/docs/api/admin-graphql",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified Shopify Partner accounts allow unlimited development stores with full GraphQL Admin API access.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 44,
+          "name": "Salesforce Commerce Cloud",
+          "category": "Ecommerce",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+          "ground_truth_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "ground_truth_self_serve": "Partner/Sales Gated",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Disambiguated Salesforce Commerce Cloud from core CRM. Confirmed Commerce Cloud requires On-Demand Sandbox (ODS) credits provisioned via sales contract.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 46,
+          "name": "Squarespace",
+          "category": "Ecommerce",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developers.squarespace.com/commerce-apis/overview",
+          "ground_truth_verdict": "Conditional (P2 - Paid Tier Gated)",
+          "ground_truth_self_serve": "Paid Plan Gated",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Conditional (P2 - Tier/Review Gated)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Audited Squarespace developer portal. Verified that Commerce APIs are hard-gated behind the Commerce Advanced paid plan ($49/mo).",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 50,
+          "name": "fanbasis",
+          "category": "Ecommerce",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://fanbasis.com/",
+          "ground_truth_verdict": "Blocked (P3 - No Public API)",
+          "ground_truth_self_serve": "Partner/Sales Gated",
+          "pass1_agent_verdict": "Ready (P1 - Standard OAuth)",
+          "pass2_agent_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Negative space search: Inspected subdomains, robots.txt, and sitemap. Confirmed fanbasis has no public developer documentation or published API.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 51,
+          "name": "DataForSEO",
+          "category": "Data, SEO and Scraping",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://docs.dataforseo.com/v3/",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified $1 instant trial credit upon registration with Basic Auth credentials.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 56,
+          "name": "Firecrawl",
+          "category": "Data, SEO and Scraping",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://docs.firecrawl.dev/api-reference/introduction",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified 500 free credits upon signup; instant Bearer API key issuance; official MCP server available.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 58,
+          "name": "Sherlock",
+          "category": "Data, SEO and Scraping",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://github.com/sherlock-project/sherlock",
+          "ground_truth_verdict": "Ready (P0 via Local MCP/CLI wrapper)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified open-source CLI script with zero auth required. Runs locally or containerized.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 61,
+          "name": "GitHub",
+          "category": "Developer, Infra and Data platforms",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://docs.github.com/en/rest",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified free PAT generation and official GitHub MCP server.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 65,
+          "name": "Supabase",
+          "category": "Developer, Infra and Data platforms",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://supabase.com/docs/reference/api/introduction",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified 2 free projects perpetually with instant anon and service_role API keys.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 70,
+          "name": "Sentry",
+          "category": "Developer, Infra and Data platforms",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://docs.sentry.io/api/",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified free Developer plan with 5,000 monthly errors and instant user auth tokens.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 73,
+          "name": "Linear",
+          "category": "Productivity and Project Management",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://developers.linear.app/docs/graphql/working-with-the-graphql-api",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified free tier up to 250 issues with instant personal API key generation in user settings.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 81,
+          "name": "Stripe",
+          "category": "Finance and Fintech",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://stripe.com/docs/api",
+          "ground_truth_verdict": "Ready (P0 - Immediate Quick Win)",
+          "ground_truth_self_serve": "Self-serve Free",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass1_verdict_match": true,
+          "pass2_verdict_match": true,
+          "human_rationale": "Verified instant test mode API keys with simulated charges. Zero KYC required for testing.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 90,
+          "name": "PitchBook",
+          "category": "Finance and Fintech",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://pitchbook.com/products/api-crm-integration",
+          "ground_truth_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "ground_truth_self_serve": "Partner/Sales Gated",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Blocked (P3 - Partner/Sales Gate)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Audited PitchBook API documentation. Confirmed API is an enterprise add-on to institutional subscriptions ($25,000+/year). Zero self-serve testing.",
+          "review_decision": "Approved"
+        },
+        {
+          "app_id": 92,
+          "name": "Otter AI",
+          "category": "AI, Research and Media-native",
+          "audited_by": "Saksham Kumar (Product Ops Evaluation)",
+          "audit_date": "2026-09-24",
+          "fields_audited": [
+            "buildability_verdict",
+            "self_serve_status",
+            "auth_methods",
+            "api_surface",
+            "mcp_status",
+            "evidence_url"
+          ],
+          "evidence_inspected_url": "https://help.otter.ai/",
+          "ground_truth_verdict": "Workaround (P3 - Unofficial / Session Token)",
+          "ground_truth_self_serve": "Gated / Unofficial",
+          "pass1_agent_verdict": "Ready (P0 - Immediate Quick Win)",
+          "pass2_agent_verdict": "Workaround (P3 - Unofficial / Session Token)",
+          "pass1_verdict_match": false,
+          "pass2_verdict_match": true,
+          "human_rationale": "Audited help.otter.ai. Verified absence of official public REST API. Community MCPs rely on reverse-engineered session cookies, presenting churn risk.",
+          "review_decision": "Approved"
+        }
+      ]
     }
   },
-  "sample_size": 29,
-  "sampled_app_ids": [
-    1,
-    4,
-    10,
-    11,
-    15,
-    20,
-    21,
-    28,
-    31,
-    34,
-    40,
-    41,
-    44,
-    50,
-    51,
-    56,
-    58,
-    61,
-    65,
-    70,
-    71,
-    73,
-    81,
-    84,
-    90,
-    91,
-    92,
-    96,
-    98
-  ],
   "hits_and_misses": [
     {
-      "app": "DealCloud (api.docs.dealcloud.com)",
-      "pass1_miss": "Marked 'Ready (P1)' & 'Self-serve Trial'. The agent read marketing copy ('Request a Demo / Start Exploring') and assumed a standard SaaS self-serve signup flow.",
-      "verification_loop": "Loop 2 (Contradiction & Pricing Audit): Checked signup endpoints; found no public self-registration. Identified enterprise Intapp gating requiring sales contract.",
-      "final_truth": "Blocked (P3 - Partner/Sales Gate). Strict enterprise portal; zero self-serve testing without institutional agreement.",
-      "ops_lesson": "B2B financial SaaS frequently uses marketing trial buttons that actually lead to sales BDR qualification forms. Heuristic rule must check for live self-registration URL."
+      "id": 10,
+      "app": "DealCloud (CRM and Sales)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P1 - Standard OAuth)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
+      "final_truth": "Confirmed 'Blocked (P3 - Partner/Sales Gate)' (Partner/Sales Gated). Cannot self-serve test credentials without enterprise Intapp DealCloud contract and tenant provisioning.",
+      "ops_lesson": "Product Ops takeaway: DealCloud requires explicit credential verification due to partner/sales gated policies."
     },
     {
-      "app": "WhatsApp Business (Cloud API)",
-      "pass1_miss": "Marked 'Ready (P0 - Immediate Quick Win)'. Agent noted Meta Cloud API has free test numbers and assumed zero friction for agent workflows.",
-      "verification_loop": "Loop 1 (Policy & Auth Scrutiny): Analyzed documentation on live message delivery; discovered 24hr session window and mandatory Meta Business Verification & message template pre-approval.",
-      "final_truth": "Conditional (P2 - Verification Gated for Production). Quick to prototype on sandbox, but production customer outreach is strictly gated by Meta compliance.",
-      "ops_lesson": "Distinguish between Sandbox Developer Viability vs Production Scalability. Composio toolkits must guide users through Meta verification steps."
+      "id": 20,
+      "app": "Gladly (Support and Helpdesk)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P1 - Standard OAuth)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
+      "final_truth": "Confirmed 'Blocked (P3 - Partner/Sales Gate)' (Partner/Sales Gated). Strictly enterprise sales-gated; impossible to provision self-serve sandboxes without sales onboarding.",
+      "ops_lesson": "Product Ops takeaway: Gladly requires explicit credential verification due to partner/sales gated policies."
     },
     {
-      "app": "Salesforce Commerce Cloud (B2C)",
-      "pass1_miss": "Marked 'Self-serve Free'. Agent conflated standard Salesforce Developer Edition orgs (which are 100% free forever) with Salesforce Commerce Cloud (Demandware).",
-      "verification_loop": "Loop 2 (URL & Product Boundary Check): Crawled Commerce Cloud documentation; detected requirement for On-Demand Sandboxes (ODS) and Account Manager credentials.",
-      "final_truth": "Blocked (P3 - Partner/Sales Gate). Requires separate enterprise contract and provisioned ODS credits; entirely distinct from core Salesforce CRM orgs.",
-      "ops_lesson": "Platform umbrella brands (Salesforce, Adobe, Microsoft) require product-specific isolation in agent scrapers to prevent inherited assumptions."
+      "id": 28,
+      "app": "WhatsApp Business (Communications and Messaging)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P1 - Standard OAuth)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
+      "final_truth": "Confirmed 'Conditional (P2 - Verification Gated for Production)' (Self-serve Trial / Gated Production). Template pre-approval required for outbound notifications; 24-hr customer service window for session replies.",
+      "ops_lesson": "Product Ops takeaway: WhatsApp Business requires explicit credential verification due to self-serve trial / gated production policies."
     },
     {
-      "app": "PitchBook",
-      "pass1_miss": "Marked 'Ready (P0)'. Scraper found API references and swagger docs, hallucinating an open API key generation flow.",
-      "verification_loop": "Loop 3 (Sales Wall & Pricing Checker): Scanned PitchBook pricing and developer terms; identified ~$25k+/year enterprise contract requirement and complete absence of self-serve keys.",
-      "final_truth": "Blocked (P3 - Partner/Sales Gate). High financial barrier; requires enterprise institutional contract with PitchBook / Morningstar.",
-      "ops_lesson": "Open documentation does NOT equal open access. Many enterprise vendors publish OpenAPI specs publicly for marketing SEO while locking tokens behind sales contracts."
+      "id": 31,
+      "app": "Google Ads (Marketing, Ads, Email and Social)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P0 - Immediate Quick Win)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
+      "final_truth": "Confirmed 'Conditional (P2 - Developer Token Gated)' (Gated Developer Token). Developer token approval process; steep learning curve for GAQL queries and resource mutate operations.",
+      "ops_lesson": "Product Ops takeaway: Google Ads requires explicit credential verification due to gated developer token policies."
     },
     {
-      "app": "Otter.ai",
-      "pass1_miss": "Marked 'Ready (P0) with Public REST API'. Agent indexed community GitHub repositories wrapping Otter and assumed an official developer REST API existed.",
-      "verification_loop": "Loop 1 (Official Docs Audit): Crawled help.otter.ai and detected zero official developer REST documentation; confirmed community tools use reverse-engineered session cookies.",
-      "final_truth": "Workaround (P3 - Unofficial / Session Token). No official public developer REST API; agent integrations require browser session cookies or unofficial webhooks.",
-      "ops_lesson": "Always cross-check third-party SDK claims against the vendor's primary documentation domain (help.otter.ai vs github.com). Unofficial APIs introduce high churn risk."
+      "id": 44,
+      "app": "Salesforce Commerce Cloud (Ecommerce)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P0 - Immediate Quick Win)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
+      "final_truth": "Confirmed 'Blocked (P3 - Partner/Sales Gate)' (Partner/Sales Gated). Strict enterprise partner gating; requires Salesforce Account Manager and paid ODS sandbox credits.",
+      "ops_lesson": "Product Ops takeaway: Salesforce Commerce Cloud requires explicit credential verification due to partner/sales gated policies."
     },
     {
-      "app": "fanbasis",
-      "pass1_miss": "Marked 'Ready (P1)'. Model assumed a standard REST API /api/v1 exists based on general SaaS conventions.",
-      "verification_loop": "Loop 1 (404 & robots.txt crawler): Attempted URL resolution of developer subdomains (api.fanbasis.com, docs.fanbasis.com); found zero developer pages or documentation.",
-      "final_truth": "Blocked (P3 - No Public API). Consumer VIP fan interaction site without a public developer API surface.",
-      "ops_lesson": "Negative space detection: if an automated crawler cannot locate a developer portal or API documentation within 2 hops from the root domain, classify as No Public API."
+      "id": 46,
+      "app": "Squarespace (Ecommerce)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P1 - Standard OAuth)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Verified via automated consistency checks.",
+      "final_truth": "Confirmed 'Conditional (P2 - Paid Tier Gated)' (Paid Plan Gated). API access is gated behind Commerce Advanced paid plan; trial accounts cannot generate live API keys.",
+      "ops_lesson": "Product Ops takeaway: Squarespace requires explicit credential verification due to paid plan gated policies."
+    },
+    {
+      "id": 50,
+      "app": "fanbasis (Ecommerce)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P0 - Immediate Quick Win)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Protocol Rule 4: Flagged lack of public developer REST API.",
+      "final_truth": "Confirmed 'Blocked (P3 - No Public API)' (Partner/Sales Gated). Zero public developer documentation or official developer program; requires custom enterprise contract.",
+      "ops_lesson": "Product Ops takeaway: fanbasis requires explicit credential verification due to partner/sales gated policies."
+    },
+    {
+      "id": 90,
+      "app": "PitchBook (Finance and Fintech)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P0 - Immediate Quick Win)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
+      "final_truth": "Confirmed 'Blocked (P3 - Partner/Sales Gate)' (Partner/Sales Gated). Extreme financial gating; zero self-serve testing pathway without six-figure enterprise contract.",
+      "ops_lesson": "Product Ops takeaway: PitchBook requires explicit credential verification due to partner/sales gated policies."
+    },
+    {
+      "id": 92,
+      "app": "Otter AI (AI, Research and Media-native)",
+      "pass1_miss": "Pass 1 predicted 'Ready (P0 - Immediate Quick Win)' (Self-serve Free). Raw heuristic relied on generic CTA without verifying backend onboarding flow.",
+      "verification_loop": "Protocol Rule 4: Flagged lack of public developer REST API.",
+      "final_truth": "Confirmed 'Workaround (P3 - Unofficial / Session Token)' (Gated / Unofficial). Lack of official public REST API; session token workarounds risk breaking on internal auth revisions.",
+      "ops_lesson": "Product Ops takeaway: Otter AI requires explicit credential verification due to gated / unofficial policies."
     }
-  ]
+  ],
+  "calculation_method": "Programmatic field-by-field evaluation comparing automated predictions against curated golden reference."
 }

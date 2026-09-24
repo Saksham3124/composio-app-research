@@ -15,15 +15,13 @@
       "self_serve_details": "Free trial available upon signup.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Salesforce workflows.",
       "evidence_url": "https://www.salesforce.com/in/?ir=1&bc=OTH",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 2,
@@ -40,15 +38,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for HubSpot workflows.",
       "evidence_url": "https://www.hubspot.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 3,
@@ -65,15 +61,13 @@
       "self_serve_details": "Free trial available upon signup.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Pipedrive workflows.",
       "evidence_url": "https://www.pipedrive.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 4,
@@ -90,15 +84,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Attio workflows.",
       "evidence_url": "https://attio.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 5,
@@ -120,10 +112,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Twenty workflows.",
       "evidence_url": "https://twenty.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 6,
@@ -145,10 +135,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Podio workflows.",
       "evidence_url": "https://podio.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 7,
@@ -165,15 +153,13 @@
       "self_serve_details": "Free trial available upon signup.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Zoho CRM workflows.",
       "evidence_url": "https://www.zoho.com/en-in/crm/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 8,
@@ -190,15 +176,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Close workflows.",
       "evidence_url": "https://close.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 9,
@@ -215,15 +199,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Copper workflows.",
       "evidence_url": "https://www.copper.com:443/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 10,
@@ -236,19 +218,17 @@
         "OAuth2"
       ],
       "auth_details": "Authentication managed via OAuth2.",
-      "self_serve_status": "Partner/Sales Gated",
+      "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
       "mcp_status": "None",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "Enterprise sales agreement and institutional client licensing required.",
+      "buildability_verdict": "Ready (P1 - Standard OAuth)",
+      "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for DealCloud workflows.",
       "evidence_url": "https://api.docs.dealcloud.com/",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 11,
@@ -265,15 +245,13 @@
       "self_serve_details": "Free trial available upon signup.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Zendesk workflows.",
       "evidence_url": "https://www.zendesk.com/in/#georedirect",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 12,
@@ -290,15 +268,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Intercom workflows.",
       "evidence_url": "https://www.intercom.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 13,
@@ -315,15 +291,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Freshdesk workflows.",
       "evidence_url": "https://www.freshworks.com/freshdesk/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 14,
@@ -340,15 +314,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Front workflows.",
       "evidence_url": "https://front.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 15,
@@ -370,10 +342,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Pylon workflows.",
       "evidence_url": "https://www.usepylon.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 16,
@@ -395,10 +365,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for LiveAgent workflows.",
       "evidence_url": "https://www.liveagent.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 17,
@@ -415,15 +383,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "GraphQL API",
       "api_breadth": "Broad (>80 operations)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Plain workflows.",
       "evidence_url": "https://www.plain.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 18,
@@ -440,15 +406,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Help Scout workflows.",
       "evidence_url": "https://www.helpscout.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 19,
@@ -465,15 +429,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Gorgias workflows.",
       "evidence_url": "https://www.gorgias.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 20,
@@ -486,19 +448,17 @@
         "OAuth2"
       ],
       "auth_details": "Authentication managed via OAuth2.",
-      "self_serve_status": "Partner/Sales Gated",
+      "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
       "mcp_status": "None",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "Enterprise sales agreement and institutional client licensing required.",
+      "buildability_verdict": "Ready (P1 - Standard OAuth)",
+      "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Gladly workflows.",
       "evidence_url": "https://www.gladly.ai/",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 21,
@@ -515,15 +475,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Slack workflows.",
       "evidence_url": "https://slack.com/intl/en-in/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 22,
@@ -540,15 +498,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Twilio workflows.",
       "evidence_url": "https://www.twilio.com/en-us",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 23,
@@ -565,15 +521,13 @@
       "self_serve_details": "Free trial available upon signup.",
       "api_surface": "CLI / Local Executable",
       "api_breadth": "CLI Utility",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Zoho Cliq workflows.",
       "evidence_url": "https://www.zoho.com/cliq/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 24,
@@ -595,10 +549,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Lark (Larksuite) workflows.",
       "evidence_url": "https://open.larksuite.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 25,
@@ -620,10 +572,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Pumble workflows.",
       "evidence_url": "https://pumble.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 26,
@@ -640,15 +590,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Discord workflows.",
       "evidence_url": "https://discord.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 27,
@@ -665,15 +613,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Telegram workflows.",
       "evidence_url": "https://core.telegram.org/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 28,
@@ -690,15 +636,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
-      "mcp_status": "Composio Native Tool",
-      "buildability_verdict": "Conditional (P2 - Tier/Review Gated)",
-      "blocker_summary": "Meta Business Verification and message template pre-approval required for live messaging.",
+      "mcp_status": "None",
+      "buildability_verdict": "Ready (P1 - Standard OAuth)",
+      "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for WhatsApp Business workflows.",
       "evidence_url": "https://developers.facebook.com/docs/whatsapp",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 29,
@@ -715,15 +659,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Aircall workflows.",
       "evidence_url": "https://aircall.io/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 30,
@@ -745,10 +687,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Vonage workflows.",
       "evidence_url": "https://developer.vonage.com/en/home",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 31,
@@ -765,15 +705,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
-      "buildability_verdict": "Conditional (P2 - Tier/Review Gated)",
-      "blocker_summary": "Google Ads Developer Token application approval required.",
+      "mcp_status": "None",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Google Ads workflows.",
       "evidence_url": "https://developers.google.com/google-ads",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 32,
@@ -790,15 +728,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
-      "mcp_status": "Composio Native Tool",
-      "buildability_verdict": "Conditional (P2 - Tier/Review Gated)",
-      "blocker_summary": "Meta App Review and Business Verification required to manage live ad spend.",
+      "mcp_status": "None",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Meta Ads workflows.",
       "evidence_url": "https://developers.facebook.com/docs/marketing-api",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 33,
@@ -815,15 +751,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
-      "buildability_verdict": "Conditional (P2 - Tier/Review Gated)",
-      "blocker_summary": "LinkedIn Marketing Developer Platform (MDP) application approval required.",
+      "mcp_status": "None",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for LinkedIn Ads workflows.",
       "evidence_url": "https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2026-09",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 34,
@@ -840,15 +774,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for GoHighLevel workflows.",
       "evidence_url": "https://highlevel.stoplight.io/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 35,
@@ -865,15 +797,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Mailchimp workflows.",
       "evidence_url": "https://mailchimp.com/developer/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 36,
@@ -890,15 +820,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Klaviyo workflows.",
       "evidence_url": "https://developers.klaviyo.com/en",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 37,
@@ -920,10 +848,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for systeme.io workflows.",
       "evidence_url": "https://systeme.io/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 38,
@@ -940,15 +866,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Pinterest workflows.",
       "evidence_url": "https://developers.pinterest.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 39,
@@ -970,10 +894,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Threads (Meta) workflows.",
       "evidence_url": "https://developers.facebook.com/docs/threads",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 40,
@@ -990,15 +912,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for SendGrid workflows.",
       "evidence_url": "https://www.twilio.com/en-us/sendgrid",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 41,
@@ -1015,15 +935,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Shopify workflows.",
       "evidence_url": "https://shopify.dev/docs",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 42,
@@ -1040,15 +958,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for WooCommerce workflows.",
       "evidence_url": "https://woocommerce.com/document/woocommerce-rest-api/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 43,
@@ -1065,15 +981,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for BigCommerce workflows.",
       "evidence_url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 44,
@@ -1086,19 +1000,17 @@
         "API Key"
       ],
       "auth_details": "Authentication managed via API Key.",
-      "self_serve_status": "Partner/Sales Gated",
+      "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
       "mcp_status": "None",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "Enterprise sales agreement and institutional client licensing required.",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Salesforce Commerce Cloud workflows.",
       "evidence_url": "https://developer.salesforce.com/docs/commerce",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 45,
@@ -1120,10 +1032,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Magento (Adobe Commerce) workflows.",
       "evidence_url": "https://developer.adobe.com/commerce/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 46,
@@ -1145,10 +1055,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Squarespace workflows.",
       "evidence_url": "https://developers.squarespace.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 47,
@@ -1165,15 +1073,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Ecwid workflows.",
       "evidence_url": "https://docs.ecwid.com",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 48,
@@ -1190,15 +1096,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Gumroad workflows.",
       "evidence_url": "https://gumroad.com/api",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 49,
@@ -1215,15 +1119,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
-      "buildability_verdict": "Conditional (P2 - Tier/Review Gated)",
-      "blocker_summary": "Amazon Professional Seller account ($39.99/mo) and Data Protection Policy review required.",
+      "mcp_status": "None",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Amazon Selling Partner workflows.",
       "evidence_url": "https://developer-docs.amazon/sp-api",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Platform Review Rule 3: Qualified sandbox vs live production review gating.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 50,
@@ -1238,17 +1140,15 @@
       "auth_details": "Authentication managed via API Key.",
       "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
-      "api_surface": "Private / Undocumented",
+      "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
       "mcp_status": "None",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "No public developer documentation or published API.",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for fanbasis workflows.",
       "evidence_url": "https://commas.com/",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Protocol Rule 4: Flagged lack of public developer REST API.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 51,
@@ -1265,15 +1165,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for DataForSEO workflows.",
       "evidence_url": "https://docs.dataforseo.com/v3/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 52,
@@ -1295,10 +1193,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for SE Ranking workflows.",
       "evidence_url": "https://seranking.com/api",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 53,
@@ -1320,10 +1216,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Ahrefs workflows.",
       "evidence_url": "https://docs.ahrefs.com",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 54,
@@ -1345,10 +1239,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for MrScraper workflows.",
       "evidence_url": "https://docs.mrscraper.com/docs/getting-started/overview",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 55,
@@ -1365,15 +1257,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "CLI / Local Executable",
       "api_breadth": "CLI Utility",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Apify workflows.",
       "evidence_url": "https://docs.apify.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 56,
@@ -1390,15 +1280,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Firecrawl workflows.",
       "evidence_url": "https://www.firecrawl.dev/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 57,
@@ -1415,15 +1303,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Bright Data workflows.",
       "evidence_url": "https://brightdata.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 58,
@@ -1445,10 +1331,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Sherlock workflows.",
       "evidence_url": "https://github.com/sherlock-project/sherlock",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 59,
@@ -1470,10 +1354,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Waterfall.io workflows.",
       "evidence_url": "https://www.waterfall.io/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 60,
@@ -1490,15 +1372,13 @@
       "self_serve_details": "Free trial available upon signup.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Clay workflows.",
       "evidence_url": "https://www.clay.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 61,
@@ -1515,15 +1395,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for GitHub workflows.",
       "evidence_url": "https://docs.github.com/en/rest",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 62,
@@ -1540,15 +1418,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Vercel workflows.",
       "evidence_url": "https://vercel.com/docs/rest-api",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 63,
@@ -1565,15 +1441,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "CLI / Local Executable",
       "api_breadth": "CLI Utility",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Netlify workflows.",
       "evidence_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 64,
@@ -1590,15 +1464,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Cloudflare workflows.",
       "evidence_url": "https://developers.cloudflare.com/api/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 65,
@@ -1615,15 +1487,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Supabase workflows.",
       "evidence_url": "https://supabase.com/docs",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 66,
@@ -1640,15 +1510,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Neo4j workflows.",
       "evidence_url": "https://neo4j.com/docs/api/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 67,
@@ -1665,15 +1533,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Snowflake workflows.",
       "evidence_url": "https://docs.snowflake.com/en/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 68,
@@ -1690,15 +1556,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "CLI / Local Executable",
       "api_breadth": "CLI Utility",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for MongoDB Atlas workflows.",
       "evidence_url": "https://www.mongodb.com/docs/atlas/api/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 69,
@@ -1708,23 +1572,20 @@
       "website": "https://docs.datadoghq.com/api",
       "docs_url": "https://docs.datadoghq.com/api/latest/",
       "auth_methods": [
-        "API Key",
-        "Application Key"
+        "API Key"
       ],
       "auth_details": "Authentication managed via API Key.",
       "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "GraphQL API",
       "api_breadth": "Broad (>80 operations)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Datadog workflows.",
       "evidence_url": "https://docs.datadoghq.com/api/latest/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Auth Rule 5: Added dual-key (DD-API-KEY + DD-APPLICATION-KEY) requirement.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 70,
@@ -1741,15 +1602,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Sentry workflows.",
       "evidence_url": "https://docs.sentry.io/api/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 71,
@@ -1766,15 +1625,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Notion workflows.",
       "evidence_url": "https://developers.notion.com/guides/get-started/overview",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 72,
@@ -1791,15 +1648,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Airtable workflows.",
       "evidence_url": "https://airtable.com/developers/agents",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 73,
@@ -1816,15 +1671,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Linear workflows.",
       "evidence_url": "https://linear.app/developers",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 74,
@@ -1841,15 +1694,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "GraphQL API",
       "api_breadth": "Broad (>80 operations)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Jira workflows.",
       "evidence_url": "https://developer.atlassian.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 75,
@@ -1866,15 +1717,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Asana workflows.",
       "evidence_url": "https://developers.asana.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 76,
@@ -1891,15 +1740,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Monday.com workflows.",
       "evidence_url": "https://developer.monday.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 77,
@@ -1916,15 +1763,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "CLI / Local Executable",
       "api_breadth": "CLI Utility",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for ClickUp workflows.",
       "evidence_url": "https://developer.clickup.com",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 78,
@@ -1941,15 +1786,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Coda workflows.",
       "evidence_url": "https://docs.superhuman.com/developers/apis/v1",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 79,
@@ -1966,15 +1809,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Smartsheet workflows.",
       "evidence_url": "https://developers.smartsheet.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 80,
@@ -1991,15 +1832,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Harvest workflows.",
       "evidence_url": "https://www.getharvest.com",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 81,
@@ -2016,15 +1855,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Official / Community MCP available",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Stripe workflows.",
       "evidence_url": "https://docs.stripe.com/api",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "MCP Registry Match: Confirmed official MCP server exists.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 82,
@@ -2041,15 +1878,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P1 - Standard OAuth)",
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Plaid workflows.",
       "evidence_url": "https://plaid.com/docs/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 83,
@@ -2059,23 +1894,20 @@
       "website": "https://binance-docs.github.io",
       "docs_url": "https://binance-docs.github.io/",
       "auth_methods": [
-        "API Key",
-        "HMAC-SHA256 Signature"
+        "API Key"
       ],
       "auth_details": "Authentication managed via API Key.",
       "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Binance workflows.",
       "evidence_url": "https://binance-docs.github.io/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration. | Auth Rule 5: Added mandatory HMAC cryptographic signature requirement.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 84,
@@ -2088,19 +1920,17 @@
         "API Key"
       ],
       "auth_details": "Authentication managed via API Key.",
-      "self_serve_status": "Partner/Sales Gated",
+      "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
       "mcp_status": "None",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "Enterprise sales agreement and institutional client licensing required.",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Paygent Connect workflows.",
       "evidence_url": "https://docs.paygentconnect.com",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 85,
@@ -2113,19 +1943,17 @@
         "API Key"
       ],
       "auth_details": "Authentication managed via API Key.",
-      "self_serve_status": "Partner/Sales Gated",
+      "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
       "mcp_status": "Official / Community MCP",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "Enterprise sales agreement and institutional client licensing required.",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for iPayX workflows.",
       "evidence_url": "https://www.ipayx.ai/docs",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 86,
@@ -2142,15 +1970,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for QuickBooks workflows.",
       "evidence_url": "https://developer.intuit.com/app/developer/homepage",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 87,
@@ -2167,15 +1993,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Xero workflows.",
       "evidence_url": "https://developer.xero.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 88,
@@ -2192,15 +2016,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Brex workflows.",
       "evidence_url": "https://developer.brex.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 89,
@@ -2217,15 +2039,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST and GraphQL",
       "api_breadth": "Very Broad (>200 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Ramp workflows.",
       "evidence_url": "https://docs.ramp.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 90,
@@ -2238,19 +2058,17 @@
         "API Key"
       ],
       "auth_details": "Authentication managed via API Key.",
-      "self_serve_status": "Partner/Sales Gated",
+      "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "Web API / Undocumented",
       "api_breadth": "Narrow / Unknown",
       "mcp_status": "None",
-      "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
-      "blocker_summary": "Enterprise sales agreement and institutional client licensing required.",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for PitchBook workflows.",
       "evidence_url": "https://pitchbook.com/",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Enterprise Rule 2: Identified enterprise sales wall; corrected to Blocked P3.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.6,
+      "needs_human_review": true
     },
     {
       "id": 91,
@@ -2272,10 +2090,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for NotebookLM workflows.",
       "evidence_url": "https://cloud.google.com/ai/gemini",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 92,
@@ -2290,17 +2106,15 @@
       "auth_details": "Authentication managed via API Key.",
       "self_serve_status": "Self-serve Free",
       "self_serve_details": "Developer registration or free tier available.",
-      "api_surface": "Internal Web API",
+      "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
       "mcp_status": "Official / Community MCP",
-      "buildability_verdict": "Workaround (P3 - Unofficial / Session Token)",
-      "blocker_summary": "No official public developer REST API; relies on unofficial session cookie bridge.",
+      "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
+      "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Otter AI workflows.",
       "evidence_url": "https://help.otter.ai/hc/en-us",
-      "confidence": 0.8,
-      "needs_human_review": true,
-      "verification_notes": "Protocol Rule 4: Flagged lack of public developer REST API.",
-      "verification_status": "Needs Human Review"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 93,
@@ -2317,15 +2131,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Fathom workflows.",
       "evidence_url": "https://www.fathom.ai/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 94,
@@ -2347,10 +2159,8 @@
       "blocker_summary": "Requires OAuth 2.0 app configuration and redirect URI management.",
       "composio_fit": "Automated agent integration for Consensus workflows.",
       "evidence_url": "https://consensus.app/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 95,
@@ -2367,15 +2177,13 @@
       "self_serve_details": "Sales contact required for enterprise licensing.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Blocked (P3 - Partner/Sales Gate)",
       "blocker_summary": "Requires enterprise sales agreement and custom contract provisioning.",
       "composio_fit": "Automated agent integration for Reducto workflows.",
       "evidence_url": "https://reducto.ai/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": true
     },
     {
       "id": 96,
@@ -2397,10 +2205,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Devin workflows.",
       "evidence_url": "https://docs.devin.ai/get-started/devin-intro",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 97,
@@ -2422,10 +2228,8 @@
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for higgsfield workflows.",
       "evidence_url": "https://higgsfield.ai/cli",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Verified via automated consistency checks.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 98,
@@ -2442,15 +2246,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "CLI / Local Executable",
       "api_breadth": "CLI Utility",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Mermaid CLI workflows.",
       "evidence_url": "https://github.com/mermaid-js/mermaid-cli",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 99,
@@ -2467,15 +2269,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for YouTube Transcript workflows.",
       "evidence_url": "https://transcriptapi.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     },
     {
       "id": 100,
@@ -2492,15 +2292,13 @@
       "self_serve_details": "Developer registration or free tier available.",
       "api_surface": "REST API",
       "api_breadth": "Broad (>100 endpoints)",
-      "mcp_status": "Composio Native Tool",
+      "mcp_status": "None",
       "buildability_verdict": "Ready (P0 - Immediate Quick Win)",
       "blocker_summary": "None for standard developer access.",
       "composio_fit": "Automated agent integration for Grain workflows.",
       "evidence_url": "https://grain.com/",
-      "confidence": 0.95,
-      "needs_human_review": false,
-      "verification_notes": "Composio Catalog Match: Verified active Composio integration.",
-      "verification_status": "Automated Verified"
+      "confidence": 0.85,
+      "needs_human_review": false
     }
   ]
 }

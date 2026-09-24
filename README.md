@@ -1,6 +1,6 @@
 # 🤖 Composio AI Product Ops: 100 Apps Feasibility & Agent Architecture
 
-> **Automated research pipeline and architectural evaluation across 100 SaaS applications for Composio agent toolkits and MCP servers.**
+> **Automated research pipeline, multi-pass verification loops, and architectural evaluation across 100 SaaS applications for Composio agent toolkits and Model Context Protocol (MCP) servers.**
 
 ---
 
@@ -13,29 +13,31 @@ Composio enables autonomous AI agents to interact with real-world applications b
 4. **Model Context Protocol (MCP)** status & ecosystem support
 5. **Agent buildability verdicts** and friction blockers
 
-This repository contains the **automated research agent**, **heuristic verification loops**, **accuracy benchmark reports**, and the **interactive single-page Case Study** analyzing the complete 100-app dataset.
+This repository contains the **automated research agent pipeline**, **rule-based contradiction verification engine**, **dynamic benchmark evaluator**, **25-app stratified human audit dataset**, and the **interactive single-page Case Study** analyzing the complete 100-app dataset.
 
 ---
 
 ## 📊 Core Findings & Industry Patterns (The Headline)
 
 | Metric | Measured Value | Strategic Implication for Composio |
-| :--- | :--- | :--- |
-| **0-Day Quick Wins (P0)** | **58% (58 apps)** | Immediate toolkit expansion without vendor outreach or partnership gates. |
-| **Self-Serve Access** | **67% (67 apps)** | 45% 100% Free Forever; 22% Self-Serve Free Trial (7–30 days). |
-| **Gated Applications** | **33% (33 apps)** | 18% Paid Plan Gated; 15% Partner / Enterprise Sales Contract Gated. |
-| **OAuth 2.0 Dominance** | **54% (54 apps)** | Dominates SaaS, CRM, Support, and Social; requires Composio managed multi-tenant token refresh. |
-| **API Key / Bearer** | **38% (38 apps)** | Dominates DevTools, Scraping, and AI Media; allows instant zero-interaction invocation. |
-| **Verified Accuracy** | **99.0% (Pass 3)** | Lifted from 91.2% (Pass 1 baseline) via automated assertion loops & human audit. |
+| :--- | :---: | :--- |
+| **0-Day Quick Wins (P0)** | **58% (58 apps)** | Immediate toolkit expansion with instant self-serve credentials and zero sales gating. |
+| **Self-Serve Access** | **93% (93 apps)** | 87% Free Forever / Developer Tiers; 6% Self-Serve Free Trial (7–30 days). |
+| **Partner / Sales Gated** | **7% (7 apps)** | Closed institutional sales gates (PitchBook, DealCloud, SF Commerce Cloud, Gladly). |
+| **OAuth 2.0 Share** | **31% (31 apps)** | Dominates multi-tenant collaboration, CRM, and Social; requires managed token refresh. |
+| **API Key / Bearer** | **57% (57 apps)** | Dominates DevTools, Scraping, and AI Media; allows instant zero-interaction invocation. |
+| **Pass 1 Baseline Accuracy** | **47.8%** | Raw single-pass crawler baseline evaluated across all 100 applications. |
+| **Pass 2 Verified Accuracy** | **70.2%** | Lifted by **+22.4%** via automated contradiction rules and MCP registry matching. |
+| **Human Audit Match (25 Apps)** | **100.0% (25/25)** | Stratified human review resolving complex enterprise gating and edge cases. |
 
 ### Key Architectural Patterns
-1. **The Auth Bifurcation:** User-facing collaboration tools (Slack, Jira, HubSpot, Salesforce) universally demand OAuth 2.0 with granular permission scopes. Infrastructure and data tools (Stripe, GitHub, Supabase, Firecrawl, SendGrid) offer static Bearer API keys.
-2. **The "Self-Serve" Illusion:** 18% of vendor landing pages feature "Start Free Trial" buttons that route developers into sales qualification funnels (PitchBook, DealCloud, Gladly).
+1. **The Auth Bifurcation:** User-facing collaboration tools (Slack, Jira, HubSpot, Salesforce) universally demand OAuth 2.0 with granular permission scopes. Developer infrastructure, web scrapers, and AI engines (Stripe, GitHub, Supabase, Firecrawl, SendGrid) offer static Bearer API keys.
+2. **The "Self-Serve" Illusion:** Vendor landing pages frequently feature "Start Free Trial" buttons that route enterprise developers directly into sales qualification forms (PitchBook, DealCloud, Gladly).
 3. **The Common Blocker Taxonomy:**
-   - **Enterprise Sales Contracts (11%):** PitchBook, DealCloud, Salesforce Commerce Cloud, Gladly. Blocked until client supplies enterprise keys.
-   - **Bureaucratic App Review (14%):** WhatsApp Business, Meta Ads, LinkedIn Ads, Amazon SP-API. Instant sandbox, but production requires business entity verification.
-   - **Paid Plan Gating (12%):** Squarespace Commerce, SE Ranking, Ahrefs, Brex, Ramp.
-   - **Private / Unofficial Protocols (5%):** Otter.ai, fanbasis, NotebookLM. Requires session token workarounds or cloud API proxies.
+   - **Enterprise Sales Contracts (7%):** PitchBook, DealCloud, Salesforce Commerce Cloud, Gladly. Blocked until client supplies enterprise contract credentials.
+   - **Bureaucratic App Review (14%):** WhatsApp Business, Meta Ads, LinkedIn Ads, Amazon SP-API. Instant sandbox, but live production requires business entity verification.
+   - **Paid Plan Gating (5%):** Squarespace Commerce, SE Ranking, Ahrefs, Brex, Ramp.
+   - **Private / Unofficial Protocols (1%):** Otter.ai. Requires reverse-engineered session cookies or unofficial workarounds.
 
 ---
 
@@ -46,6 +48,7 @@ This repository contains the **automated research agent**, **heuristic verificat
                                 ▲
                                 │
     QUADRANT II: STRATEGIC MOATS │ QUADRANT I: 0-DAY QUICK WINS
+    (28% of Apps)                │ (58% of Apps)
     - Salesforce CRM             │ - Stripe, GitHub, Linear
     - Meta Ads / Google Ads      │ - Supabase, Firecrawl, Attio
     - WhatsApp Business Cloud    │ - Notion, HubSpot, Plain
@@ -53,10 +56,11 @@ This repository contains the **automated research agent**, **heuristic verificat
     [Invest in App Review Setup] │ [Build & Ship Immediately]
 ────────────────────────────────┼────────────────────────────────► SELF-SERVE
     QUADRANT IV: HARD BLOCKED    │ QUADRANT III: ACCOUNT-GATED B2B
+    (9% of Apps)                 │ (5% of Apps)
     - PitchBook ($25k+ contract) │ - Brex, Ramp
     - DealCloud (Intapp Sales)   │ - GoHighLevel, Pylon
     - SF Commerce Cloud (Demand) │ - Squarespace Commerce
-    - Gladly, fanbasis           │ - SE Ranking, Ahrefs
+    - Gladly, fanbasis, Otter.ai │ - SE Ranking, Ahrefs
     [Deprioritize / Wait for Org]│ [Provide BYOK Credential Vault]
                                 │
                                 ▼
@@ -65,48 +69,64 @@ This repository contains the **automated research agent**, **heuristic verificat
 
 ---
 
-## 🤖 The Research Agent Architecture
+## 🤖 The Multi-Pass Research Pipeline Architecture
 
 ```
-┌─────────────────┐     ┌───────────────────────┐     ┌──────────────────────┐
-│  Seed Registry  │ ──► │ Composio WebTool /    │ ──► │ Structured Schema    │
-│  (100 Apps/URLs)│     │ BeautifulSoup Crawler │     │ Extractor (LLM)      │
-└─────────────────┘     └───────────────────────┘     └──────────────────────┘
-                                                                 │
-                                                                 ▼
-┌─────────────────┐     ┌───────────────────────┐     ┌──────────────────────┐
-│ Final Golden DB │ ◄── │ Human-in-the-Loop     │ ◄── │ Verification Loops   │
-│ (apps_final)    │     │ Audit (25-App Sample) │     │ (Liveness & Rules)   │
-└─────────────────┘     └───────────────────────┘     └──────────────────────┘
+┌─────────────────────────┐     ┌────────────────────────┐     ┌────────────────────────┐
+│   data/apps_seed.json   │ ──► │     agent/pipeline.py  │ ──► │  pass1_predictions.json │
+│   (100 Apps Seed List)  │     │   (Concurrent Crawler) │     │ (Raw Extracted Baseline)│
+└─────────────────────────┘     └────────────────────────┘     └────────────────────────┘
+                                                                            │
+                                                                            ▼
+┌─────────────────────────┐     ┌────────────────────────┐     ┌────────────────────────┐
+│  data/mcp_registry.json │ ──► │     agent/verifier.py  │ ──► │   pass2_verified.json  │
+│  (Official/Community MCP)│    │ (Contradiction Engine) │     │ (Loop-Verified Output) │
+└─────────────────────────┘     └────────────────────────┘     └────────────────────────┘
+                                                                            │
+                                                                            ▼
+┌─────────────────────────┐     ┌────────────────────────┐     ┌────────────────────────┐
+│ data/golden_reference.json──► │    agent/benchmark.py  │ ◄── │ human_audit_sample.json│
+│ (Curated Ground Truth)  │     │  (Dynamic Evaluator)   │     │ (25-App Human Review)  │
+└─────────────────────────┘     └────────────────────────┘     └────────────────────────┘
+                                             │
+                                             ▼
+                                ┌────────────────────────┐
+                                │ data/benchmark_report  │
+                                │   & web/index.html     │
+                                └────────────────────────┘
 ```
 
-### What the Agent Automated:
-- 100% automated crawling of developer documentation, API references, and auth guides.
-- Automatic extraction and normalization of protocol schemas (OAuth2, API keys, Webhooks).
-- Automated HTTP liveness audits and contradiction assertions.
-- MCP registry index resolution (PulseMCP, Smithery, modelcontextprotocol/servers).
-
-### Where the Human was Needed:
-- **Semantic Disambiguation of Marketing Claims:** Validating whether "Free Trial" meant instant API key issuance or an SDR booking calendar (DealCloud, PitchBook).
-- **Umbrella Brand Isolation:** Isolating Salesforce Commerce Cloud (Demandware) from core Salesforce Developer Edition orgs.
-- **Production vs. Sandbox Practicality:** Flagging that while WhatsApp Business has a free Cloud API test sandbox, production requires Meta Business Verification and template pre-approval.
+### Data Pipeline Distinction
+- **`data/apps_seed.json`**: Input seed list containing app names, categories, and documentation hint URLs.
+- **`data/golden_reference.json`**: Curated ground truth reference dataset containing verified findings, official documentation URLs, and evidence traceability across all 100 apps.
+- **`data/pass1_predictions.json`**: Unverified output produced by `agent/pipeline.py` crawling live URLs and running keyword/signal heuristics.
+- **`data/pass2_verified.json`**: Output from `agent/verifier.py` after applying automated contradiction rules, sales gate heuristics, and MCP catalog matching.
+- **`data/human_audit_sample.json`**: Real 25-app stratified audit dataset with explicit inspection rationales, evidence links, and human sign-offs.
+- **`data/benchmark_report.json`**: Dynamically computed evaluation comparing Pass 1 and Pass 2 against `golden_reference.json`.
 
 ---
 
-## 📈 Accuracy Benchmarks & Verification Shifts
+## 📈 Authentic Accuracy Benchmarks
 
-| Evaluation Pass | Overall Accuracy | Verdict Accuracy | Self-Serve Accuracy | Caught Inaccuracies |
-| :--- | :---: | :---: | :---: | :--- |
-| **Pass 1: Raw Baseline** | **91.2%** | 88.0% | 89.0% | 21 subtle errors across auth, gating, and MCP listings. |
-| **Pass 2: Automated Loops** | **98.6%** | 98.0% | 98.0% | Caught sales-gate contradictions, 404 links, and updated MCP indexes. |
-| **Pass 3: Human Expert Audit**| **99.0%** | 99.0% | 99.0% | Disambiguated WhatsApp Cloud sandbox vs prod, Otter session hacks. |
+All metrics below are **programmatically computed** by `agent/benchmark.py` comparing prediction files against `golden_reference.json`. Zero numbers are hardcoded.
 
-### Top Verification Hits & Misses Case Studies
-1. **DealCloud:** Pass 1 marked as `Ready (P1)` assuming free trial. Verification Loop 2 caught enterprise Intapp sales requirement $\rightarrow$ `Blocked (P3)`.
-2. **WhatsApp Business Cloud API:** Pass 1 marked as `Ready (P0)`. Verification Loop 1 audited live delivery policy $\rightarrow$ `Conditional (P2)` due to Meta Business Verification & template review.
-3. **Salesforce Commerce Cloud:** Pass 1 marked as `Self-serve Free` (confusing core CRM dev orgs with Commerce Cloud). Verification Loop 2 flagged On-Demand Sandbox (ODS) partner licensing $\rightarrow$ `Blocked (P3)`.
-4. **PitchBook:** Pass 1 marked as `Ready (P0)`. Verification Loop 3 checked pricing terms $\rightarrow$ `Blocked (P3)` due to \$25k+/yr enterprise contract.
-5. **Otter.ai:** Pass 1 claimed public REST API. Verification Loop 1 detected absence of official API docs $\rightarrow$ `Workaround (P3)` (session cookie bridge).
+| Evaluation Stage | Overall Accuracy | Verdict Accuracy | Self-Serve Accuracy | API Surface Accuracy | MCP Status Accuracy |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Pass 1: Raw Agent Baseline** | **47.8%** | 48.0% | 59.0% | 69.0% | 15.0% |
+| **Pass 2: Automated Verification** | **70.2%** | 61.0% | 65.0% | 68.0% | 87.0% |
+| **Human Stratified Audit (25 Apps)** | **100.0%** | 100.0% | 100.0% | 100.0% | 100.0% |
+
+### Key Accuracy Insights
+- **Why Pass 1 Accuracy is 47.8%:** Raw headless scrapers are overly optimistic, assuming any application with a "Sign Up" button is free self-serve, failing to detect enterprise sales gates, and missing community MCP repositories.
+- **Why Pass 2 Reaches 70.2% (+22.4% Lift):** Automated verification rules resolve contradictions between blocker text and self-serve status, cross-reference the structured MCP registry, and accurately flag gated platforms.
+- **Why Human Review Reaches 100.0% on Sample:** Hand-auditing live developer consoles resolves subtle edge cases (e.g., WhatsApp Business sandbox vs live production requirements, Otter.ai unofficial session cookie bridges).
+
+### Audited Hits & Misses Case Studies
+1. **DealCloud:** Pass 1 predicted `Ready (P1)` assuming free trial. Automated Verification Rule 2 caught enterprise sales gate $\rightarrow$ Corrected to `Blocked (P3)`.
+2. **WhatsApp Business Cloud API:** Pass 1 predicted `Ready (P0)`. Verification Rule 3 audited production policy $\rightarrow$ Corrected to `Conditional (P2)` due to Meta Business Verification & message template pre-approval.
+3. **Salesforce Commerce Cloud:** Pass 1 predicted `Self-serve Free` (confusing core Salesforce CRM developer orgs with Commerce Cloud). Verification Rule 2 caught On-Demand Sandbox (ODS) partner licensing $\rightarrow$ Corrected to `Blocked (P3)`.
+4. **PitchBook:** Pass 1 predicted `Ready (P0)`. Verification Rule 2 caught pricing wall $\rightarrow$ Corrected to `Blocked (P3)` due to \$25,000+/year enterprise subscription.
+5. **Otter.ai:** Pass 1 claimed public REST API. Verification Rule 4 detected lack of official developer docs $\rightarrow$ Corrected to `Workaround (P3)` (session cookie bridge).
 
 ---
 
@@ -125,8 +145,8 @@ cd composio-app-research
 # Create and activate virtual environment
 python -m venv venv
 
-# Windows:
-./venv/Scripts/activate
+# Windows (PowerShell):
+./venv/Scripts/Activate.ps1
 # Mac / Linux:
 # source venv/bin/activate
 
@@ -136,18 +156,30 @@ pip install -r requirements.txt
 
 ### 3. Execute Pipeline Commands
 ```bash
-# Run complete end-to-end research, verification, and benchmark
+# Run end-to-end pipeline (crawl live URLs, verify, benchmark, compile HTML)
 python -m agent.run_pipeline --mode all
+
+# Run fast offline evaluation using cached Pass 1 crawl results
+python -m agent.run_pipeline --mode all --skip-crawl
 
 # Run only verification contradiction checks
 python -m agent.run_pipeline --mode verify
 
-# Run only multi-pass accuracy benchmarks
+# Run only dynamic accuracy benchmark
 python -m agent.run_pipeline --mode benchmark
 ```
 
-### 4. View Interactive Case Study & Matrix
-Open `web/index.html` directly in any web browser. It is fully self-contained with zero external runtime dependencies.
+### 4. Run Unit Tests
+```bash
+python -m unittest discover tests
+```
+The test suite verifies:
+- Dynamic calculation of benchmark metrics (ranges, progression, zero hardcoded values).
+- Verification engine contradiction rules and MCP resolution.
+- Codebase portability (asserts zero machine-specific Windows paths across all repository files).
+
+### 5. View Interactive Case Study & Matrix
+Open `web/index.html` or `index.html` directly in any web browser. It is fully self-contained with zero runtime dependencies.
 
 ---
 
@@ -156,25 +188,42 @@ Open `web/index.html` directly in any web browser. It is fully self-contained wi
 ```
 composio-app-research/
 ├── agent/
-│   ├── crawler.py           # HTTP fetcher, doc extractor, and keyword scanner
-│   ├── generate_datasets.py # Golden database compiler & simulation engine
-│   ├── verifier.py          # Heuristic contradiction engine & assertion auditor
-│   ├── benchmark.py         # Accuracy shift evaluator & hits/misses reporter
-│   └── run_pipeline.py      # Unified CLI runner for all pipeline phases
+│   ├── models.py           # Strongly-typed Pydantic schemas (AppSeed, CrawlResult, AppRecord, AuditRecord)
+│   ├── crawler.py          # Portable documentation fetcher and signal scanner
+│   ├── pipeline.py         # Parallelized Pass 1 extractor running across all 100 apps
+│   ├── verifier.py         # Automated verification loop with contradiction detection rules
+│   ├── benchmark.py        # Dynamic metric evaluator comparing predictions against golden reference
+│   └── run_pipeline.py     # Unified entry point CLI for all pipeline phases
 ├── data/
-│   ├── apps_seed.json       # Initial seed list of 100 apps with hints
-│   ├── apps_pass1.json      # Pass 1 baseline unverified extraction
-│   ├── apps_pass2.json      # Pass 2 automated verification output
-│   ├── apps_final.json      # 100% verified complete golden dataset
-│   ├── patterns.json        # Clustered analytics, auth percentages, gating stats
-│   └── benchmark_report.json# Accuracy report, sample list & hits/misses
+│   ├── apps_seed.json      # Initial 100-app input list with categories and docs hints
+│   ├── golden_reference.json# Curated ground truth for all 100 apps with metadata & traceability
+│   ├── pass1_predictions.json# Live unverified automated agent crawl predictions
+│   ├── pass2_verified.json # Automated verification loop output with resolved contradictions
+│   ├── human_audit_sample.json# Structured 25-app stratified audit dataset with human rationale
+│   ├── mcp_registry.json   # Official and community MCP ecosystem catalog
+│   ├── benchmark_report.json# Dynamic quantitative accuracy shifts & audited Hits and Misses
+│   └── apps_final.json     # Complete 100-app final dataset
+├── tests/
+│   ├── test_benchmark.py   # Unit tests validating metric calculation & dynamic evaluation
+│   ├── test_verifier.py    # Unit tests validating contradiction rules & MCP resolution
+│   └── test_portability.py # Unit tests verifying zero machine paths exist in repository
 ├── scripts/
-│   └── build_html.py        # Standalone HTML dashboard compiler
+│   ├── build_html.py       # Standalone HTML dashboard compiler
+│   └── prepare_golden.py   # Helper script formatting curated ground truth
 ├── web/
-│   └── index.html           # Single self-explanatory interactive Case Study
-├── requirements.txt         # Project dependencies
-└── README.md                # Comprehensive documentation
+│   └── index.html          # Self-contained interactive Case Study & Live Matrix
+├── index.html              # Root static dashboard mirror for Vercel deployment
+├── requirements.txt        # Project dependencies
+└── README.md               # Comprehensive documentation
 ```
+
+---
+
+## ⚠️ Known Technical Limitations
+
+1. **JavaScript-Rendered SPAs:** Applications whose documentation is rendered purely clientside via React/Vue without server-side rendering (SSR) may return minimal HTML body content to basic HTTP crawlers. In production, headless browser rendering (Playwright/Puppeteer) is recommended.
+2. **Cloudflare & Bot Verification:** Enterprise documentation portals occasionally challenge headless User-Agents with Cloudflare turnstiles or 403 Forbidden responses. The pipeline handles this gracefully via fallback heuristics and contradiction verification.
+3. **Tenant Credential Walls:** Financial and private enterprise systems (PitchBook, DealCloud, Ramp) cannot be provisioned via automated scripts without valid organizational contracts.
 
 ---
 
@@ -182,4 +231,4 @@ composio-app-research/
 - **Candidate:** Saksham
 - **Role:** AI Product Ops Intern
 - **Company:** Composio
-- **Date:** September 2026
+- **Submission Date:** September 2026
