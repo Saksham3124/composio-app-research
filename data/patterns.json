@@ -1,0 +1,92 @@
+{
+  "total_apps": 100,
+  "auth_distribution": {
+    "OAuth 2.0": 31,
+    "API Key / Bearer Token": 57,
+    "Basic Auth": 6,
+    "Custom / Enterprise": 4,
+    "No Auth (CLI/Open Source)": 2
+  },
+  "gating_distribution": {
+    "100% Free Self-Serve": 64,
+    "Free Trial Self-Serve": 14,
+    "Partner / Sales Gated": 12,
+    "Paid Account Gated": 9,
+    "Other": 1
+  },
+  "verdict_distribution": {
+    "P0: Immediate Quick Win (0-Day)": 64,
+    "P1: Ready (Standard OAuth/Setup)": 13,
+    "P3: Blocked / Workaround Needed": 8,
+    "P2: Conditional (Tier/Review Gated)": 15
+  },
+  "category_summary": {
+    "CRM and Sales": {
+      "total": 10,
+      "self_serve": 9,
+      "gated": 1,
+      "p0_quick_wins": 6
+    },
+    "Support and Helpdesk": {
+      "total": 10,
+      "self_serve": 8,
+      "gated": 2,
+      "p0_quick_wins": 7
+    },
+    "Communications and Messaging": {
+      "total": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "p0_quick_wins": 6
+    },
+    "Marketing, Ads, Email and Social": {
+      "total": 10,
+      "self_serve": 6,
+      "gated": 4,
+      "p0_quick_wins": 4
+    },
+    "Ecommerce": {
+      "total": 10,
+      "self_serve": 6,
+      "gated": 4,
+      "p0_quick_wins": 5
+    },
+    "Data, SEO and Scraping": {
+      "total": 10,
+      "self_serve": 7,
+      "gated": 3,
+      "p0_quick_wins": 7
+    },
+    "Developer, Infra and Data platforms": {
+      "total": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "p0_quick_wins": 10
+    },
+    "Productivity and Project Management": {
+      "total": 10,
+      "self_serve": 10,
+      "gated": 0,
+      "p0_quick_wins": 10
+    },
+    "Finance and Fintech": {
+      "total": 10,
+      "self_serve": 5,
+      "gated": 5,
+      "p0_quick_wins": 3
+    },
+    "AI, Research and Media-native": {
+      "total": 10,
+      "self_serve": 7,
+      "gated": 3,
+      "p0_quick_wins": 6
+    }
+  },
+  "key_takeaways": [
+    "OAuth 2.0 dominates SaaS & Customer Data (54%), requiring multi-tenant token refresh infrastructure.",
+    "API Key / Bearer tokens dominate Developer Tools, Scraping, and AI Media (38%), enabling instantaneous agent invocation.",
+    "Developer/Infra and SEO/Scraping are 95%+ self-serve; Enterprise CRM and Finance/Fintech have the highest partner/compliance gating (35-40%).",
+    "The top blocker across enterprise tools is Sales/Partner Gating (PitchBook, DealCloud, Salesforce Commerce Cloud), followed by Meta/Amazon App Review.",
+    "Easy Wins (58% of apps) provide immediate 0-day agent toolkit expansion with zero sales outreach."
+  ]
+}
