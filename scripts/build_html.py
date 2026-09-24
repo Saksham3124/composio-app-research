@@ -1112,7 +1112,7 @@ def generate_html():
         <h3 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 8px;">Quickstart: Reproduce Findings in 60 Seconds</h3>
         <div class="code-container">
 <span style="color: #64748b;"># 1. Clone repository & navigate to project</span>
-git clone https://github.com/Saksham-Kumar-560/composio-app-research.git
+git clone https://github.com/Saksham3124/composio-app-research.git
 cd composio-app-research
 
 <span style="color: #64748b;"># 2. Create virtual environment & install requirements</span>

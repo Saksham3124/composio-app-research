@@ -119,7 +119,7 @@ This repository contains the **automated research agent**, **heuristic verificat
 ### 2. Setup Virtual Environment
 ```bash
 # Clone the repository
-git clone https://github.com/Saksham-Kumar-560/composio-app-research.git
+git clone https://github.com/Saksham3124/composio-app-research.git
 cd composio-app-research
 
 # Create and activate virtual environment
