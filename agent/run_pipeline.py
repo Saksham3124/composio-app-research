@@ -11,6 +11,7 @@ from pathlib import Path
 from agent.pipeline import run_pass1
 from agent.verifier import run_pass2, ResearchVerifier
 from agent.benchmark import calculate_benchmark
+from scripts.compute_patterns import compute_patterns
 from scripts.build_html import generate_html
 
 def run_pipeline():
@@ -82,6 +83,10 @@ def run_pipeline():
             print(f"  * {hm['app']}:")
             print(f"    Miss: {hm['pass1_miss']}")
             print(f"    Fix:  {hm['verification_loop']}\n")
+
+        print(" -> Computing fresh cluster patterns from golden reference...")
+        compute_patterns()
+        print(" -> data/patterns.json regenerated successfully.\n")
 
     if args.mode == "all":
         print("[PHASE 4] Recompiling Executive Standalone Web Dashboard...")

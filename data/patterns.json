@@ -10,15 +10,14 @@
   "gating_distribution": {
     "100% Free Self-Serve": 64,
     "Free Trial Self-Serve": 14,
-    "Partner / Sales Gated": 12,
     "Paid Account Gated": 9,
-    "Other": 1
+    "Partner / Sales Gated": 13
   },
   "verdict_distribution": {
     "P0: Immediate Quick Win (0-Day)": 64,
     "P1: Ready (Standard OAuth/Setup)": 13,
-    "P3: Blocked / Workaround Needed": 8,
-    "P2: Conditional (Tier/Review Gated)": 15
+    "P2: Conditional (Tier/Review Gated)": 15,
+    "P3: Blocked / Workaround Needed": 8
   },
   "category_summary": {
     "CRM and Sales": {
@@ -83,10 +82,10 @@
     }
   },
   "key_takeaways": [
-    "OAuth 2.0 dominates SaaS & Customer Data (54%), requiring multi-tenant token refresh infrastructure.",
-    "API Key / Bearer tokens dominate Developer Tools, Scraping, and AI Media (38%), enabling instantaneous agent invocation.",
-    "Developer/Infra and SEO/Scraping are 95%+ self-serve; Enterprise CRM and Finance/Fintech have the highest partner/compliance gating (35-40%).",
+    "OAuth 2.0 (31% primary) dominates SaaS, CRM, and Social collaboration, requiring multi-tenant token refresh infrastructure.",
+    "API Key / Bearer tokens (57%) dominate Developer Tools, Scraping, and AI Media, enabling instantaneous zero-interaction agent invocation.",
+    "Developer/Infra and Productivity platforms are 100% self-serve; Enterprise CRM and Finance/Fintech have the highest partner/compliance gating.",
     "The top blocker across enterprise tools is Sales/Partner Gating (PitchBook, DealCloud, Salesforce Commerce Cloud), followed by Meta/Amazon App Review.",
-    "Easy Wins (58% of apps) provide immediate 0-day agent toolkit expansion with zero sales outreach."
+    "Quick Wins (64% of apps) provide immediate 0-day agent toolkit expansion with zero sales outreach."
   ]
 }

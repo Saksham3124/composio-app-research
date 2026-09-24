@@ -37,6 +37,20 @@ def generate_html():
     apikey_count = sum(1 for a in apps_data if any("API Key" in m or "Bearer" in m for m in a["auth_methods"]))
     basic_count = total_apps - oauth_count - apikey_count
 
+    # Extract dynamic pattern distributions fresh from patterns.json
+    auth_dist = patterns_data.get("auth_distribution", {})
+    oauth_share = auth_dist.get("OAuth 2.0", 31)
+    apikey_share = auth_dist.get("API Key / Bearer Token", 57)
+    basic_share = auth_dist.get("Basic Auth", 6)
+
+    gating_dist = patterns_data.get("gating_distribution", {})
+    free_ss = gating_dist.get("100% Free Self-Serve", 64)
+    trial_ss = gating_dist.get("Free Trial Self-Serve", 14)
+    paid_gated = gating_dist.get("Paid Account Gated", 9)
+    partner_gated = gating_dist.get("Partner / Sales Gated", 13)
+    total_ss = free_ss + trial_ss
+    total_gated = paid_gated + partner_gated
+
     pass1_overall = benchmark_data["metrics_shift"]["pass1_raw"]["overall_accuracy"]
     pass2_overall = benchmark_data["metrics_shift"]["pass2_loop_verified"]["overall_accuracy"]
     audit_sample_acc = benchmark_data["metrics_shift"]["human_audit_sample"]["pass2_sample_accuracy"]
@@ -726,13 +740,13 @@ def generate_html():
         </div>
         <div class="stat-card">
           <div class="stat-label">Self-Serve Rate</div>
-          <div class="stat-value" style="color: var(--cyan);">{self_serve_count}%</div>
+          <div class="stat-value" style="color: var(--cyan);">{total_ss}%</div>
           <div class="stat-sub">Free tiers or instant developer sandboxes</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">OAuth 2.0 Share</div>
-          <div class="stat-value" style="color: var(--purple);">{oauth_count}%</div>
-          <div class="stat-sub">Dominant SaaS protocol</div>
+          <div class="stat-value" style="color: var(--purple);">{oauth_share}%</div>
+          <div class="stat-sub">Primary SaaS protocol</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Verified Accuracy</div>
@@ -803,29 +817,36 @@ def generate_html():
             <div style="font-size: 1.5rem; margin-bottom: 8px;">🚪</div>
             <h3>2. Gating: The "Self-Serve" Reality</h3>
             <p>
-              While <strong>{self_serve_count}%</strong> offer self-serve access, <strong>{total_apps - self_serve_count}%</strong> are walled behind enterprise partner approval or mandatory paid plans.
+              While <strong>{total_ss}%</strong> offer self-serve access ({free_ss}% free forever, {trial_ss}% trial), <strong>{total_gated}%</strong> are walled behind paid plans ({paid_gated}%) or enterprise sales contracts ({partner_gated}%).
             </p>
             <div class="meter-container">
               <div>
                 <div class="meter-row">
                   <span>Free Forever Self-Serve</span>
-                  <span style="font-weight: 700; color: var(--emerald);">87%</span>
+                  <span style="font-weight: 700; color: var(--emerald);">{free_ss}%</span>
                 </div>
-                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: 87%; background: var(--emerald);"></div></div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: {free_ss}%; background: var(--emerald);"></div></div>
               </div>
               <div>
                 <div class="meter-row">
                   <span>Free Trial (7 - 30 Days)</span>
-                  <span style="font-weight: 700; color: var(--cyan);">6%</span>
+                  <span style="font-weight: 700; color: var(--cyan);">{trial_ss}%</span>
                 </div>
-                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: 6%; background: var(--cyan);"></div></div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: {trial_ss}%; background: var(--cyan);"></div></div>
+              </div>
+              <div>
+                <div class="meter-row">
+                  <span>Paid Plan Gated</span>
+                  <span style="font-weight: 700; color: var(--amber);">{paid_gated}%</span>
+                </div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: {paid_gated}%; background: var(--amber);"></div></div>
               </div>
               <div>
                 <div class="meter-row">
                   <span>Partner / Sales Contract Gated</span>
-                  <span style="font-weight: 700; color: var(--rose);">7%</span>
+                  <span style="font-weight: 700; color: var(--rose);">{partner_gated}%</span>
                 </div>
-                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: 7%; background: var(--rose);"></div></div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" style="width: {partner_gated}%; background: var(--rose);"></div></div>
               </div>
             </div>
             <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 12px;">

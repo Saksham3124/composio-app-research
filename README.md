@@ -21,12 +21,13 @@ This repository contains the **automated research agent pipeline**, **rule-based
 
 | Metric | Measured Value | Strategic Implication for Composio |
 | :--- | :---: | :--- |
-| **0-Day Quick Wins (P0)** | **58% (58 apps)** | Immediate toolkit expansion with instant self-serve credentials and zero sales gating. |
-| **Self-Serve Access** | **93% (93 apps)** | 87% Free Forever / Developer Tiers; 6% Self-Serve Free Trial (7–30 days). |
-| **Partner / Sales Gated** | **7% (7 apps)** | Closed institutional sales gates (PitchBook, DealCloud, SF Commerce Cloud, Gladly). |
-| **OAuth 2.0 Share** | **31% (31 apps)** | Dominates multi-tenant collaboration, CRM, and Social; requires managed token refresh. |
+| **0-Day Quick Wins (P0)** | **64% (64 apps)** | Immediate toolkit expansion with instant self-serve credentials and zero sales gating (58% automated). |
+| **Self-Serve Access** | **78% (78 apps)** | 64% 100% Free Forever; 14% Self-Serve Free Trial (7–30 days). |
+| **Gated Applications** | **22% (22 apps)** | 9% Paid Account Gated; 13% Partner / Enterprise Sales Contract Gated. |
+| **OAuth 2.0 Share** | **31% (31 apps)** | Dominates multi-tenant collaboration, CRM, and Social (65% total support); requires managed token refresh. |
 | **API Key / Bearer** | **57% (57 apps)** | Dominates DevTools, Scraping, and AI Media; allows instant zero-interaction invocation. |
 | **Pass 1 Baseline Accuracy** | **47.8%** | Raw single-pass crawler baseline evaluated across all 100 applications. |
+| **Pass 2 Verified Accuracy** | **70.2%** | Lifted by **+22.4%** via automated contradiction rules and MCP registry matching. |
 | **Human Audit Sample Match** | **56.0% (14/25)** | Lifted from 36.0% (Pass 1); hand-audited ground truth confirms edge-case nuances. |
 
 ### Key Architectural Patterns
