@@ -1116,6 +1116,7 @@ def generate_html():
                 <th>App Name</th>
                 <th>Category</th>
                 <th>Evidence URL</th>
+                <th>Ground Truth Verdict</th>
                 <th>Pass 1 Verdict</th>
                 <th>Pass 2 Verdict</th>
                 <th>Pass 2 Match</th>
@@ -1409,6 +1410,7 @@ composio-app-research/
               Evidence Link ↗
             </a>
           </td>
+          <td><span style="font-size: 0.75rem; color: #10b981; font-weight: 600;">${{rec.ground_truth_verdict.split(' - ')[0]}}</span></td>
           <td><span style="font-size: 0.75rem; color: #94a3b8;">${{rec.pass1_agent_verdict.split(' - ')[0]}}</span></td>
           <td><span style="font-size: 0.75rem; color: #818cf8; font-weight: 600;">${{rec.pass2_agent_verdict.split(' - ')[0]}}</span></td>
           <td>

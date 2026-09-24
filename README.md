@@ -27,8 +27,7 @@ This repository contains the **automated research agent pipeline**, **rule-based
 | **OAuth 2.0 Share** | **31% (31 apps)** | Dominates multi-tenant collaboration, CRM, and Social; requires managed token refresh. |
 | **API Key / Bearer** | **57% (57 apps)** | Dominates DevTools, Scraping, and AI Media; allows instant zero-interaction invocation. |
 | **Pass 1 Baseline Accuracy** | **47.8%** | Raw single-pass crawler baseline evaluated across all 100 applications. |
-| **Pass 2 Verified Accuracy** | **70.2%** | Lifted by **+22.4%** via automated contradiction rules and MCP registry matching. |
-| **Human Audit Match (25 Apps)** | **100.0% (25/25)** | Stratified human review resolving complex enterprise gating and edge cases. |
+| **Human Audit Sample Match** | **56.0% (14/25)** | Lifted from 36.0% (Pass 1); hand-audited ground truth confirms edge-case nuances. |
 
 ### Key Architectural Patterns
 1. **The Auth Bifurcation:** User-facing collaboration tools (Slack, Jira, HubSpot, Salesforce) universally demand OAuth 2.0 with granular permission scopes. Developer infrastructure, web scrapers, and AI engines (Stripe, GitHub, Supabase, Firecrawl, SendGrid) offer static Bearer API keys.
@@ -114,12 +113,13 @@ All metrics below are **programmatically computed** by `agent/benchmark.py` comp
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Pass 1: Raw Agent Baseline** | **47.8%** | 48.0% | 59.0% | 69.0% | 15.0% |
 | **Pass 2: Automated Verification** | **70.2%** | 61.0% | 65.0% | 68.0% | 87.0% |
-| **Human Stratified Audit (25 Apps)** | **100.0%** | 100.0% | 100.0% | 100.0% | 100.0% |
+| **Human Audit Sample (Pass 1)** | — | **36.0% (9/25)** | — | — | — |
+| **Human Audit Sample (Pass 2)** | — | **56.0% (14/25)**| — | — | — |
 
 ### Key Accuracy Insights
 - **Why Pass 1 Accuracy is 47.8%:** Raw headless scrapers are overly optimistic, assuming any application with a "Sign Up" button is free self-serve, failing to detect enterprise sales gates, and missing community MCP repositories.
 - **Why Pass 2 Reaches 70.2% (+22.4% Lift):** Automated verification rules resolve contradictions between blocker text and self-serve status, cross-reference the structured MCP registry, and accurately flag gated platforms.
-- **Why Human Review Reaches 100.0% on Sample:** Hand-auditing live developer consoles resolves subtle edge cases (e.g., WhatsApp Business sandbox vs live production requirements, Otter.ai unofficial session cookie bridges).
+- **Human Audit Discrepancy Analysis (56.0% Match on 25 Edge Cases):** On complex edge cases, automated crawler extractions often predicted `Ready (P1 - Standard OAuth)` where human inspection verified perpetual free developer orgs deserving `Ready (P0 - Immediate Quick Win)` (Salesforce, Zendesk, Slack), or differed slightly in subtype qualifiers. The human review validated and approved all 25 records against official developer documentation.
 
 ### Audited Hits & Misses Case Studies
 1. **DealCloud:** Pass 1 predicted `Ready (P1)` assuming free trial. Automated Verification Rule 2 caught enterprise sales gate $\rightarrow$ Corrected to `Blocked (P3)`.
